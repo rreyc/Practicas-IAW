@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 80%;
+    z-index: 10;
 
 }
 
@@ -32,7 +34,17 @@ button {
     background-color: cornflowerblue;
     font-size: 1.5em;
     font-weight: bold;
+    border: none;
 }
 button:hover {
     background-color: #cc5ce5;
+
+}
+#resultados {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+
 }
